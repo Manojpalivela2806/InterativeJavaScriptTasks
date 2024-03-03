@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./INCREMENT.js" defer></script>
+    <style>
+        div{
+            outline:auto;
+            height: 400px;
+            width: 400px;  
+        }
+        button{
+            position: absolute;
+            top: 40%;
+            left: 43.5%;
+            width: 200px;
+            height: 80px;
+            background-color: red;
+            color: antiquewhite;
+            font-size: xx-large;
+        }
+        #s2{
+            position: relative;
+            top: 63%;
+            right: 2%;
+            font-size: x-large;
+        }
+        #s1{
+            position: relative;
+            top: 40%;
+            left: 23%;
+            font-size: xx-large;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <div>
+             <span id="s1">0</span>
+            <span id="s2">Previous Count:0</span>
+            <button onclick="demo(),desk()">increment</button>
+        </div>
+    </center>
+</body>
+</html>
